@@ -1,4 +1,4 @@
-site_name: Solipsse's Wiki
+site_name: solipsse's wiki
 #site_url: https://mydomain.org/mysite
 theme:
   name: material
@@ -84,14 +84,15 @@ markdown_extensions:
       repo: wiki
   - pymdownx.mark
   - pymdownx.smartsymbols
-  # - pymdownx.snippets:
-  #     auto_append:
-  #       - includes/mkdocs.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: python
+          class: python
+          validator: !!python/name:markdown_exec.validator
+          format: !!python/name:markdown_exec.formatter
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
@@ -103,14 +104,15 @@ markdown_extensions:
   - pymdownx.tilde
 extra_css:
   - extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
-  - extra.js
-  - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
   - search
+  - markdown-exec
   - mkdocs-jupyter:
       execute: true
   # - minify:
