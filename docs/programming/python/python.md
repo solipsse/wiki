@@ -151,3 +151,4 @@ print("helloworld"[::-1])
 *[Duplicate]: Without `:` in the bracket, the `list2` will be refering to `list`
 *[Range Function]: (start, stop, step), default start = 0 and step = 1
 *[Slice operator]: start and stop are default on the outer element and the step is default as 1 `list[::-1]` will start at the right, end left because the step is in reverse direction. works on str, list and tuple
+[Python in 90 mins]: https://www.youtube.com/watch?v=VchuKL44s6E

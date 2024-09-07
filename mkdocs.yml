@@ -1,5 +1,6 @@
 site_name: solipsse's wiki
 #site_url: https://mydomain.org/mysite
+dev_addr: '0.0.0.0:5000'
 theme:
   name: material
   features:
@@ -105,6 +106,7 @@ markdown_extensions:
 extra_css:
   - extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+
 extra_javascript:
   - javascripts/extra.js
   - javascripts/mathjax.js
@@ -112,6 +114,7 @@ extra_javascript:
 
 plugins:
   - search
+  - preprocess_c_code
   - markdown-exec
   - mkdocs-jupyter:
       execute: true
