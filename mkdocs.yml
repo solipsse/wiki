@@ -106,6 +106,8 @@ markdown_extensions:
 extra_css:
   - extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap
+  - https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap
 
 extra_javascript:
   - javascripts/extra.js
@@ -114,10 +116,8 @@ extra_javascript:
 
 plugins:
   - search
-  - preprocess_c_code
   - markdown-exec
-  - mkdocs-jupyter:
-      execute: true
+  - mkdocs-nav-weight
   # - minify:
   #     minify_html: true
   - macros
