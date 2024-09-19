@@ -1,0 +1,2 @@
+# Resource
+[formula](../formula.pdf)
