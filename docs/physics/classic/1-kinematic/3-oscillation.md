@@ -1,4 +1,4 @@
-# 17 oscillation
+# oscillation
 ## shm
 !!! note
     - s
