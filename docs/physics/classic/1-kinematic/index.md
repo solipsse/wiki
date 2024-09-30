@@ -64,7 +64,7 @@ use $\int ,  \frac{d}{dx}$ to find the equation of $v, s, a$ when given one of t
 
 two/three perpendicular 1D motions => 2D/3D motion.
 
-- [projectiles](1-projectile) closely related to freefall
-- [circular motion](2-circular) vertically vs horizontally
+- [x] [projectiles](1-projectile) closely related to freefall
+- [circular motion](2-circular)
 - [oscillation](3-oscillation)
 # rotational motion
