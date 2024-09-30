@@ -43,8 +43,7 @@ $$
 v &  \equiv \omega r \\ \\ 
 a_{c}  & \equiv \omega^{2}r \\
  & \equiv \frac{v^{2}}{r} \\ \\
- ma_{c}&= \frac{mv^{2}}{r} \\
-F_{c} & \equiv \frac{mv^{2}}{r} \qquad \text{}
+\text{n2l}: \quad F_{c} & \equiv \frac{mv^{2}}{r} \qquad \text{}
 \end{align}
 $$
 
@@ -86,7 +85,7 @@ $$
 -\sin \theta \\
 \cos \theta
 \end{pmatrix} }_{\quad \text{tangential component} \quad}\\ \\
-\vec{a} & \equiv -\omega^{2} \vec{s} + \alpha \vec{v} \\
+\vec{a} & \equiv -\omega^{2} \vec{s} + \frac{\alpha}{\omega} \vec{v} \\
 \end{align}
 $$
 ### magnitude equation
@@ -97,8 +96,8 @@ $$
 v &  \equiv \omega r \\ \\   & \text{we are able to split acceleration into a two} \perp \text{components} \ \vec{a_{c}}\cdot  \vec{a_{t}} = 0 \\  \\ \
 \Rightarrow \quad a_{c}  & \equiv \omega^{2}r \\
  & \equiv \frac{v^{2}}{r} \\ \\
-\text{n2l:} \quad F_{c} & \equiv \frac{mv^{2}}{r} \qquad \text{} \\ \\
+\text{n2l}: \quad F_{c} & \equiv \frac{mv^{2}}{r} \qquad \text{} \\ \\
 \Rightarrow \quad a_{t}  & \equiv \alpha r \\ \\
-\text{n2l:} \quad F_{t} & \equiv m\alpha r \qquad \text{}
+\text{n2l}: \quad F_{t} & \equiv m\alpha r \qquad \text{}
 \end{align}
 $$
