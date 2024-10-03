@@ -2,8 +2,8 @@
 
 For projectile:
 
-- $x: \ F_{d} \ \text{is negligible} \ \Sigma F = 0\Rightarrow a=0$ 
-- $y: \Sigma F = -W \Rightarrow a = -g$
+- $x:$ no acceleration
+- $y:$ const acceleration $g$
 ## equation of projectile
 $$
 \begin{align}
@@ -17,7 +17,7 @@ y & = x \left( \frac{a_{y}}{2u_{x}^{2}}x + \frac{u_{y}}{u_{x}}  \right) \qquad (
 $$
 
 !!! note
-	since $a_{y}, \vec{u} \ \text{or} \  \theta$ are not funciton of x $\therefore$ a parabola.
+	const $a_{y}, \vec{u}, \  \theta$ => a parabola
 
  ![](https://i.imgur.com/fCA81VC.png)
 
@@ -43,7 +43,7 @@ a_{y}
 $$
 
 !!! tip
-	to $\int / \frac{d}{dx}$ a vector, perform the operation on all components of the vector individually. The $+ \vec{c}$ can also be found by using boundary condition $(\text{time}, \overrightarrow{\text{quantity}})$
+	to $\int / \frac{d}{dt}$ a vector, perform the operation on all components of the vector individually. The $+ \vec{c}$ can also be found by using boundary condition $(\text{time}, \overrightarrow{\text{quantity}})$
 
 where
 
@@ -56,11 +56,9 @@ finding $\theta$ at any $t$
 $$\tan\theta = \frac{u_{y}}{u_{x}}$$
 
 max height ($\text{y-axis}$)
-
 $$
 \begin{align} \\
- & v  = 0 \\
- & u+at   = 0 \\ \\
+ & \overbrace{u+at}^v = 0 \\ \\
  & t  = -\frac{u}{a} \\
 \end{align}
 $$
