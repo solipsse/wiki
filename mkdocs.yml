@@ -1,8 +1,6 @@
 site_name: solipsse's wiki
 #site_url: https://mydomain.org/mysite
 dev_addr: '0.0.0.0:5000'
-exclude_docs: |
-  diagram.excalidraw
 theme:
   name: material
   features:

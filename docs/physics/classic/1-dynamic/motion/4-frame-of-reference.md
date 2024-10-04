@@ -1,0 +1,3 @@
+# newtononian relativity
+
+absolute linear motion at a constant velocity cannot be detected, nor can absolute rest. All motion is relative to a frame of reference. It is not possible to distinguish motion with a constant velocity from rest. All constant velocity frames of reference are equivalent (including frames of reference that appear to be at rest — after all, a prolonged state of rest is motion with a constant speed of zero).

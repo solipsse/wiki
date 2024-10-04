@@ -1,12 +1,10 @@
 # oscillation
-
 - oscillation: back and forth movement 2
 - phase diff in context of oscillation
+ 2
 ## SHM
 !!! note
 	SHM is a 1D projection of motion in a circular motion, either the x/y
-
-
 
 - KE <-> PE
 - resistive force -> damping
