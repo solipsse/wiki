@@ -13,7 +13,7 @@ weight: -2
 !!! tip
 	this idea can be extended from translational equilibrium $\Sigma F = 0$ to rotational/angular equilibrium $\Sigma\tau=0$
 !!! warning
-$$\text{equilibrium}\triangleq \text{(translational equilibrium)} \land \text{(rotational equilibrium)}$$
+	$$\text{equilibrium}\triangleq \text{(translational equilibrium)} \land \text{(rotational equilibrium)}$$
 ## dynamic
 
 

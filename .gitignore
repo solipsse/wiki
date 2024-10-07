@@ -36,6 +36,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+#excalidraw
+diagram.excalidraw.md
+
 # Unit test / coverage reports
 htmlcov/
 .tox/

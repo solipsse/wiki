@@ -1,15 +1,20 @@
 # Physic
 
-!!! warning "currently [working on](classic/1-dynamic/work-and-energy/kinetic-energy)"
 ## Page that are finished or somewhat finished
 - [friction](classic/1-dynamic/forces/1-friction/)
 - [force](classic/1-dynamic/forces/)
 - [circular motion](classic/1-dynamic/motion/2-circular/)
 - [equilibrium](classic/1-dynamic/2-equilibrium/)
-- [motion](classic/1-dynamic/motion/) to be redo
-- [projectilie](classic/1-dynamic/motion/1-projectile/) to be redo
+- [dynamic](classic/1-dynamic)
+- [motion](classic/1-dynamic/motion/) to be completed
+- [projectile](classic/1-dynamic/motion/1-projectile/) to be redo
 - [work and energy](classic/1-dynamic/work-and-energy/)
-
+- [kinetic energy](classic/1-dynamic/work-and-energy/kinetic-energy/)
+- [potential energy](classic/1-dynamic/work-and-energy/potential-energy/)
+- [collision](classic/1-dynamic/3-collision/)
+- [frame of reference](classic/1-dynamic/motion/4-frame-of-reference/)
+- [momentum](classic/1-dynamic/quantity-of-object/1-momentum/)
+- [center of mass](classic/1-dynamic/quantity-of-object/2-centre-of-mass/)
 !!! tip
 	Sometimes I use (!) which means, I am not sure and will come back to it.
 

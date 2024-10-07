@@ -103,6 +103,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
 extra_css:
   - extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
@@ -116,6 +117,7 @@ extra_javascript:
 
 plugins:
   - search
+  - mkdocs_matplotlib
   - markdown-exec
   - mkdocs-nav-weight
   # - minify:

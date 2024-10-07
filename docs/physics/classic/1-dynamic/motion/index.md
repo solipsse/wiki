@@ -11,7 +11,30 @@ weight: -3
 ## translational motion
 
 ## rotational motion
+Most of rotational motion is an analouge of translational motion onto angular values. So $d \ sv_{0}vat \ F \ m p \mapsto r \ \theta \omega_{0} \omega \alpha t \  \tau \ I L$ respectively.
 
+!!! tip
+	Rotational motion is periodic(!link to page...) $\theta\equiv\theta \pm(2\pi)k$
+	
+	<iframe width="500" height="300" src="https://www.youtube.com/embed/erA0jb9dSm0" title="How to rotate in higher dimensions? Complex dimensions? | Lie groups, algebras, brackets #2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
+!!! tip "connection between rotation and translation"
+	$$\begin{align}
+	 & \text{arc length} = \theta r \\
+	 & s = r\hat{r} \qquad \text{point in a circle}\\
+	 & v =  \omega r \\
+	 & \vec{a} = -\omega^{2}r\hat{r} + \alpha r\hat{t} \\ 
+	  & \tau = F \times s \\
+	\text{coordinate system}: \quad & \vec{s} = \langle x, y, z \rangle  \\
+	 & \ \ = r\langle \cos \theta,\sin \theta,\dots?\rangle \text{TBC when learn more} \\
+	 & r^{2} =x^{2} + y^{2} +z^{2} +\dots  \\
+	 & \theta = \pm\tan ^{-1}(y / x) \qquad \theta \in \left( -\frac{\pi}{2}, \frac{\pi}{2}\right)
+	\end{align}$$
+
+	- all one dimensional motion of rotational motion are analouge to translation motion, as it is define in a similar way by ODE. Even work, power, potential energy and kinetic energy $K =\frac{1}{2}I\omega^{2}$
+
+![](https://i.imgur.com/LKSry79.png)
+### rolling
 ## special type of motion
 - projectile (parabola: 2D linear)
 - circular motion (Circle: 2D oscillatory)
@@ -27,6 +50,7 @@ weight: -3
 	Distance and displacement are not affected by a reflection of the coordinate system. This is not true for all physical quantities, however. The ones that don't work the same when viewed in a mirror are called pseudovectors (e.g. [torque](https://physics.info/rotational-dynamics/), [angular momentum](https://physics.info/rotational-momentum/) or spin, and [magnetic field](https://physics.info/electromagnetism/)).
 	
 	The direction of a pseudovector is always related to a hand rule of some sort (like the one used in [vector multiplication](https://physics.info/vector-multiplication/)). But as we have just discussed and as everyone knows, right hands become left hands and left hands become right hands when viewed in a mirror. Wrong hand means wrong direction. Space appears to know the difference between left and right for some quantities."
+
 
 ## not organise
 ### 1D linear motion

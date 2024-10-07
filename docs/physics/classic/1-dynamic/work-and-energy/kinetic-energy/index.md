@@ -7,12 +7,11 @@
 !!! failure "this is not looking good..."
 
 $$\begin{align} \\
-\vec{s}  & =\begin{pmatrix}x(t)\\ y(t)\end{pmatrix} \quad \frac{d\vec{s}}{dt}=\begin{pmatrix}x'(t) \\ y'(t)\end{pmatrix} \\
- d\vec{s}  & = dt\begin{pmatrix} x'(t)\\y'(t)\end{pmatrix}\\ \\
 \Delta K  & = W \\
  & = \int_{C} \vec{F} \cdot d\vec{s} \\ 
- & = \int_{C}\left( m \frac{d\vec{v}}{dt} + \vec{v}\frac{dm}{dt} \right)\cdot(x'(t)\hat{i} + y'(t)\hat{j})dt \\
- & = \int_{C} (md\vec{v} + \vec{v} dm) \cdot (x'(t)\hat{i} + y'(t)\hat{j})
+ & = \int_{C}\left( m \dot{\vec{v}} + \vec{v}\dot{m} \right)\cdot \vec{v}dt\\ 
+ & = \int_{C}v^{2}\dot{m} dt  +\int_{C} m(\dot{\vec{s}}\cdot  \ddot{\vec{s}})dt  \\
+ & = \text{?} 
 \end{align}$$
 
 !!! tip "this is ok"
