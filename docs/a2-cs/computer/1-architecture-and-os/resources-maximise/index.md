@@ -1,4 +1,26 @@
-# system software
+---
+weight: -2
+---
+# os resource optimisation 
+Kernel do 
+
+- exception handling
+- device management
+- interrupt handling
+- memory management
+	- idea of vm
+	- paging vs segmentation
+	- page replaement and disk thrashing
+		- FIFO, OPR, LRU LUPR, clock pr
+- process management
+	- state
+	- scheduling
+		- round robin, sjf, fcfs, srtf
+- disk management
+- io system communication
+
+
+## system software
 
 !!! term
 	- multiprogramming
@@ -70,6 +92,6 @@ OS can be thought of in two ways:
 *[srtf]: shortest remaining time first
 *[sjf]: shortest job first
 *[round robin]: all process have their chance of processing in a time slice
-*[multiprogramming]: allows multiple programs to be loaded into memory and executed concurrently on a single processor
+*[multiprogramming]: 
 *[kernel mode]: optimise resource usage (all the key management) including io, memory, cpu
 *[user mode]: hide complexity from user

@@ -20,7 +20,7 @@
 	F & = \dot{p} \\
 	 & =\dot{(mv)}  \\
      & = m\dot{v} + \dot{m}v \\
-	\text{for } m=k: \quad F & \equiv ma
+	\text{for } m=k: \quad F & \equiv ma \\
 	\end{align}$$
 ??? info "n1l, n2l analogous in other form"
 	![](https://i.imgur.com/EPh2p4a.png)
