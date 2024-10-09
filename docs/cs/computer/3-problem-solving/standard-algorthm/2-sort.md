@@ -26,6 +26,29 @@ void Sort(int arr[],int n){
 }
 ```
 ## Bubble Sort
+Concept: Pass through the array comparing pairs of adjacent elements, and swapping them if they are  out of order, done n- 1 times or until there are no swaps (whichever comes first). \
+Time Complexity: O(n<sup>2</sup>) \
+```
+void swap(int* xp, int* yp){
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+void Sort(int arr[],int n){
+    bool swapped;
+    for(int i = 0;i < n - 1; ++i){
+        swapped = false;
+        for (j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(&arr[j], &arr[j + 1]);
+                swapped = true;
+            }
+        }
+        if(!swapped)
+            break;
+    }
+}
+```
 ## Insertion Sort
 ## Merge Sort
 ## Quick Sort
