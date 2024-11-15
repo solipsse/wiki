@@ -22,7 +22,7 @@ $\frac{d}{dx}ln(x)= \frac{1}{x}$
 
 Proof: Go to "Implicit differentiation"
 ## Product/Quotient rule
-$\frac{d}{dx}(u*v) = v*\frac{d}{dx}u+u*\frac{d}{dx}v$
+$\frac{d}{dx}(u*v) = v * \frac{d}{dx}u+u * \frac{d}{dx}v$
 
 $\frac{d}{dx}(\frac{u}{v}) = \frac{v*\frac{du}{dx}-u*\frac{dv}{dx}}{v^2}$
 ## tan(x), cot(x), sec(x), cosec(x)
