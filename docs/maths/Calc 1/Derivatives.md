@@ -26,9 +26,31 @@ $\frac{d}{dx}(u*v) = v * \frac{d}{dx}u+u * \frac{d}{dx}v$
 
 $\frac{d}{dx}(\frac{u}{v}) = \frac{v*\frac{du}{dx}-u*\frac{dv}{dx}}{v^2}$
 ## tan(x), cot(x), sec(x), cosec(x)
+$\frac{d}{dx}tan(x) = sec^2(x)$
 
+$\frac{d}{dx}cot(x) = -cosec^2(x)$
+
+$\frac{d}{dx}sec(x) = tan(x)sec(x)$
+
+$\frac{d}{dx}cosec(x) = -cot(x)cosec(x)$
 ## Chain rule
+$\frac{dy}{dx} = \frac{dy}{du} * \frac{du}{dx}$
 ### Exponentials
+$\frac{d}{dx}C^x = ln(C) * C^x$
+
+Proof:
+
+$C^x = e^{ln(C)x}$
+
+Chain rule
+
+$u=ln(C)x$
+
+$y = e^u$
+
+$\frac{dy}{dx} = \frac{dy}{du} * \frac{du}{dx} = e^u * ln(C)$
+
+$\frac{d}{dx}C^x = ln(C) * C^x$
 ## Implicit differentiation
 ## Inverse functions
 ### Inverse trigs
