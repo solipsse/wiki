@@ -1,3 +1,0 @@
-- using files
-- selectin progrmming paradigm
-- selecting data types
